@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl" ng-app="myApp">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/service/service.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid"> 
+        <nav>
+        <ul class="nav nav-pills nav-stacked flex-column">
+            <li class="nav-item">
+                <a href="/new" class="nav-link " ><h4>Nowe</h4></a>
+            </li>
+            <li class="nav-item">
+                <a href="/lists" class="nav-link"><h4>Lista</h4></a>
+            </li>
+            <li class="nav-item disabled">
+                <a href="/" class="nav-link"><h4>Historia</h4></a>
+            </li>
+        </ul>    
+    </nav>
+    <div ng-view>
+    </div>
+</div>
+</body>
+
+</html>

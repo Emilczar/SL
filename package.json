@@ -1,0 +1,29 @@
+{
+  "name": "list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilczar/list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilczar/list/issues"
+  },
+  "homepage": "https://github.com/Emilczar/list#readme",
+  "dependencies": {
+    "@types/bootstrap": "^3.3.36",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "html": "^1.0.0",
+    "mongoose": "^4.11.7"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

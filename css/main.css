@@ -1,0 +1,108 @@
+body{
+
+    background-color: #322E2E
+}
+
+nav{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    
+
+}
+
+
+.nav-item{
+box-sizing: border-box;
+position: relative;
+border-radius: 10px;
+margin-bottom: 2px;
+background-color: black;
+
+}
+.nav-item a{
+text-align: center;
+color: white;
+}
+
+.nav-item a:hover{
+    text-align: center;
+    color: white;
+    background-color: #425576;
+    border-radius: 10px;
+    }
+.lista{
+    box-sizing: border-box;
+   
+        border-radius: 30px;
+   
+}
+
+.lista a  {
+        color: white;
+        justify-content: center;
+        background-color: rgba(23, 21, 21, 0.85);
+        
+        border-radius: 30px;
+    }
+
+    
+.nameID{
+    box-sizing: border-box;
+    position: relative;
+    margin: 10px 0px;
+    border-top: 2px solid #353560;
+    border-bottom: 2px solid #353560;
+}   
+.nameID h1 {
+    color:#DC741D;
+    text-align: center;
+    
+}
+
+#new {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: white;
+    margin-top: 10px
+    
+}
+.nameInput input{
+    margin-left:  20px;    
+    margin-top: 10px;
+ }
+ #listname{
+     color: wheat;
+ }
+
+ /*  view new.html  */
+
+
+ .box1 label {
+   font-size: 18px;
+    color: white;
+    
+ }
+
+ .boxList{
+    background: blue;
+   
+ }
+ .boxList h4 {
+    text-align: center;
+ }
+ #testcol {
+    background: green;
+ }
+
+ h6 {
+     color: wheat;
+ }
+
+ #newAdd { 
+    
+     padding-left: 40px;
+ }
