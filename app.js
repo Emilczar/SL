@@ -5,12 +5,6 @@ const path = require('path');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-//app.set('views',path.join(__dirname,'views'))
-//app.set('ng',path.join(__dirname,'ng'))
-//app.engine('html', require('ejs').renderFile);
-//app.use(express.static(path.join(__dirname, 'ng')))
-
-
 app.use('/js',express.static(path.join(__dirname, 'js')))
 app.use('/views',express.static(path.join(__dirname,"views")))
 app.use('/css',express.static(path.join(__dirname,'css')))
